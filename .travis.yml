@@ -1,5 +1,5 @@
 language: java
-dist: precise
+
 services: mysql
 before_install:
   - mysql -e 'CREATE DATABASE IF NOT EXISTS makumba;'
